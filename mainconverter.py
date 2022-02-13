@@ -28,8 +28,6 @@ hide_streamlit_style = """
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
 
-shorten = pyshorteners.Shortener()
-
 
 st.title("Youtube Converter")
 textbox = st.text_input('Enter the video link', 'Video link')
